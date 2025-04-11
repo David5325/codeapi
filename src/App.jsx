@@ -18,7 +18,7 @@ function App() {
         <Route path='/usuario' element={<Usuario />} />
         <Route path='/capturados' element={<Capturados />} />
         <Route path='/aleatorios' element={<Aleatorio />} />
-        <Route path='/pokemon' element={<Pokemon />} />
+        <Route path='/pokemon/:name' element={<Pokemon />} />
       </Routes>
     </Router>
   )
